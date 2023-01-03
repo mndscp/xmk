@@ -5,10 +5,10 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    keymap {
-        compatible = "zmk,keymap";
-        default_layer {
-            bindings = <
+  keymap {
+    compatible = "zmk,keymap";
+    default_layer {
+      bindings = <
 
 &kp ESC                                                                                                                               &kp DEL
 &kp GRAVE            &kp 1     &kp 2     &kp 3     &kp 4     &kp 5                &kp 6     &kp 7     &kp 8     &kp 9     &kp 0       &kp AT_SIGN &kp AMPERSAND &kp ASTERISK
@@ -17,7 +17,7 @@
 &kp LEFT_SHIFT &kp F &kp Z     &kp X     &kp C     &kp D     &kp V                &kp K     &kp H     &kp COMMA &kp DOT   &kp SLASH   &kp RIGHT_SHIFT
 &kp LEFT_CONTROL &kp LEFT_META &kp LEFT_ALT                           &kp SPACE             &kp RIGHT_ALT  &kp RIGHT_CONTROL &kp LEFT &kp DOWN &kp UP &kp RIGHT
 
-            >;
-        };
+      >;
     };
+  };
 };
